@@ -116,17 +116,34 @@
 
 // check if a number is even or odd
 
-var num =9;
+// var num =10;
 
-if (num % 2 === 0){
-    console.log( num + "  is even a number.");
-}
-else{
-    console.log(num + "  is odd a number.");
-}
+// if (num % 2 === 0){
+//     console.log( num + "  is even  number.");
+// }
+// else{
+//     console.log(num + "  is odd  number.");
+// }
 
 
+// if (num % 2 === 0){
+//     console.log( num + "  is even a number.");
+// }
 
-if (num % 2 === 0){
-    console.log( num + "  is even a number.");
+
+var day = "Friday";
+
+switch (day) {
+    case "Monday":
+    console.log("Today is Monday.");
+    break;
+
+    case "Tuesday":
+    console.log("Today is Tuesday.");
+    break;
+
+    default:
+    console.log("Today is not Monday or Tuesday.");
+
+
 }
