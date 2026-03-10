@@ -82,11 +82,12 @@
 
 
 
-// Question: if the peroson is 18 years or older , a citizen and a registeged voter, display a msg saying they eligible to vote.
 
-// if the person is is younger than 18, display a msg saying they are not eligible to vote.
-//if the person is 18 years or older but not a citizen, display a msg saying they are not eligible to vote because they are not a citizen.
-// if the person is 18 years or older and a citizen but not a registered voter, display a msg saying they are not eligible to vote because they are not a registered voter.
+//! Question: if the peroson is 18 years or older , a citizen and a registeged voter, display a msg saying they eligible to vote.
+
+// !if the person is is younger than 18, display a msg saying they are not eligible to vote.
+//!if the person is 18 years or older but not a citizen, display a msg saying they are not eligible to vote because they are not a citizen.
+//! if the person is 18 years or older and a citizen but not a registered voter, display a msg saying they are not eligible to vote because they are not a registered voter.
 
 // Ans:
 
@@ -110,11 +111,11 @@
 // }
 // else {
 //     console.log("You are not eligible to vote.");
-// }
+//  }
 
 
 
-// check if a number is even or odd
+//!check if a number is even or odd:
 
 // var num =10;
 
@@ -130,6 +131,11 @@
 //     console.log( num + "  is even a number.");
 // }
 
+
+
+
+
+//! switch statement:
 
 var day = "Friday";
 
@@ -147,3 +153,7 @@ switch (day) {
 
 
 }
+
+
+
+//!Q:write a javascript switch statement that takes a variable areaofshapes representing different shapes (e.g., "circle", "square", "rectangle") and calculates the area based on the shape type. Assume you have the necessary dimensions for each shape (e.g., radius for circle, side length for square, length and width for rectangle).  
