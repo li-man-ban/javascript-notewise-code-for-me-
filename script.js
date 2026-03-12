@@ -137,23 +137,65 @@
 
 //! switch statement:
 
-var day = "Friday";
-
-switch (day) {
-    case "Monday":
-    console.log("Today is Monday.");
-    break;
-
-    case "Tuesday":
-    console.log("Today is Tuesday.");
-    break;
-
-    default:
-    console.log("Today is not Monday or Tuesday.");
-
-
-}
 
 
 
-//!Q:write a javascript switch statement that takes a variable areaofshapes representing different shapes (e.g., "circle", "square", "rectangle") and calculates the area based on the shape type. Assume you have the necessary dimensions for each shape (e.g., radius for circle, side length for square, length and width for rectangle).  
+//? var day = "Friday";
+
+//? switch (day) {
+//?     case "Monday":
+//?     console.log("Today is Monday.");
+//?    break;
+
+//?     case "Tuesday":
+//?     console.log("Today is Tuesday.");
+//?     break;
+
+//?     default:
+//?     console.log("Today is not Monday or Tuesday.");
+
+
+
+
+
+
+//!Q:write a javascript switch statement that takes a variable areaofshapes representing different shapes (e.g., "circle", "square", "rectangle") and calculates the area based on the shape type. Assume you have the necessary dimensions for each shape (e.g., radius for circle, side length for square, length and width for rectangle). ensure that the correct area (25 in this casse) is logged tho the console.
+
+
+//? ans:
+
+var areaofshapes = "square";
+
+var a = 5;
+var b = 10;
+var area;
+
+switch (areaofshapes) {
+    case "circle":
+        var radius = 2;
+        var area = 3.14116 *( radius * radius);
+        console.log("Area of the circle: " + area.toFixed(2));
+        break; 
+
+
+        case "square":
+            var side = a;
+            var area = side * side;
+            console.log("Area of the square: " + area);
+            break;
+
+            case "rectangle":
+                var length = a;
+                var width = b;
+                var area = length * width;
+                console.log("Area of the rectangle: " + area);
+                break;
+
+                default:
+                    console.log("sorry the shape is not available")
+                    
+    }
+
+
+
+
