@@ -164,37 +164,70 @@
 
 //? ans:
 
-var areaofshapes = "square";
+// var areaofshapes = "square";
 
-var a = 5;
-var b = 10;
-var area;
+// var a = 5;
+// var b = 10;
+// var area;
 
-switch (areaofshapes) {
-    case "circle":
-        var radius = 2;
-        var area = 3.14116 *( radius * radius);
-        console.log("Area of the circle: " + area.toFixed(2));
-        break; 
+// switch (areaofshapes) {
+//     case "circle":
+//         var radius = 2;
+//         var area = 3.14116 *( radius * radius);
+//         console.log("Area of the circle: " + area.toFixed(2));
+//         break; 
 
 
-        case "square":
-            var side = a;
-            var area = side * side;
-            console.log("Area of the square: " + area);
-            break;
+//         case "square":
+//             var side = a;
+//             var area = side * side;
+//             console.log("Area of the square: " + area);
+//             break;
 
-            case "rectangle":
-                var length = a;
-                var width = b;
-                var area = length * width;
-                console.log("Area of the rectangle: " + area);
-                break;
+//             case "rectangle":
+//                 var length = a;
+//                 var width = b;
+//                 var area = length * width;
+//                 console.log("Area of the rectangle: " + area);
+//                 break;
 
-                default:
-                    console.log("sorry the shape is not available")
-                    
+//                 default:
+//                     console.log("sorry the shape is not available")
+
+//     }
+
+
+
+
+
+
+
+
+    // var a=5;
+    // var b=10;
+    // while (a<=b){
+    //     console.log( a)
+    //     a++;
+    // }
+
+
+
+
+    // let a=5;
+    // let b=10;
+    // do {
+    //     console.log(a);
+    //     a++;
+    // } while (a <= b);
+
+
+    for (let i = 1; i <= 10; i++) {
+        console.log( "5 * " + i + " = " + (i * 5) );
     }
+
+
+
+
 
 
 
