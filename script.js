@@ -277,18 +277,53 @@
 //      }
 //  }
 
-let num = 10;       
-let isPrime = true;    
+// let num = 10;       
+// let isPrime = true;    
 
-for ( let i =2 ; i<num; i++){
-  if (num % i === 0){
-    isPrime = false;
-    break;
-  }
-}
-if (isPrime){
-  console.log(num + " is a prime number.");
-}
-else{
-    console.log(num + " is not a prime number.");
-}
+// for ( let i =2 ; i<num; i++){
+//   if (num % i === 0){
+//     isPrime = false;
+//     break;
+//   }
+// }
+// if (isPrime){
+//   console.log(num + " is a prime number.");
+// }
+// else{
+//     console.log(num + " is not a prime number.");
+// }
+
+
+// for(let num =1 ; num<=10 ; num++){
+//     console.log("5 * " + num + " = " + 5 * num);
+// }
+
+
+var year = 2020;            
+
+    if ( year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
+    console.log( year + " is a leap year ");
+    }
+
+    else {
+        console.log(year +  " is not a leap year");
+    }
+
+
+
+    for ( var i=1; i<=5; i++){
+        
+        var pattern = "";
+        for ( var j=1 ; j<=i; j++){
+            pattern = pattern + " *";
+        }
+        console.log(pattern);
+    }
+
+
+    function  greet (name){
+        console.log("Hello "+ name + " , welcome to javascript ")
+    }
+
+    greet("tanvir");
+    greet("hasan");
