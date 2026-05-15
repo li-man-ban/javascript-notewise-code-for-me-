@@ -201,7 +201,7 @@
 
 
 
-
+//! while loop
 
     // var a=5;
     // var b=10;
@@ -212,6 +212,8 @@
 
 
 
+//! do while loop
+
 
     // let a=5;
     // let b=10;
@@ -221,14 +223,72 @@
     // } while (a <= b);
 
 
-    for (let i = 1; i <= 10; i++) {
-        console.log( "5 * " + i + " = " + (i * 5) );
-    }
+//! for loop
+
+    // for (let i = 1; i <= 10; i++) {
+    //     console.log( "5 * " + i + " = " + (i * 5) );
+    // }
+
+
+
+//!  took a number input from the user and keep asking until they enter a valid positive number. once they enter a valid number, display a message confirming that they entered a valid number.
+
+// let userinput;
+// let posiivenum;
+// do {
+//     userinput =prompt(enter any positive numher )
+//     positivenum =parseFloat(userinput)
+// }while {isNaN(positivenum)|| positivenum<0}
+// console.log(you enter a valid Number);
 
 
 
 
+// let i =1
+// for(i=1 ; i<=10; i==)
+// {console,log(i+i++)}
+
+ 
+//! sum of 1 to 10:
 
 
+//  var sum = 0;  
+//  for ( let i =1; i<=10; i++)
+//  { sum= sum +i;
 
+//  }
+//  console.log(sum);
 
+ 
+
+//   debugger;
+//  let count = 0;
+//  for (let num = 2; count < 10; num++) {
+//      let isPrime = true;
+//      for (let i = 2; i < num; i++) {
+//          if (num % i === 0) {
+//              isPrime = false;
+//              break;
+//          }
+//      }
+//      if (isPrime) {
+//          console.log(num);
+//          count++;
+//      }
+//  }
+
+let num = 10;       
+let isPrime = true;    
+
+for ( let i =2 ; i<num; i++){
+  if (num % i === 0){
+    isPrime = false;
+    break;
+  }
+}
+if (isPrime){
+  console.log(num + " is a prime number.");
+}
+else{
+    console.log(num + " is not a prime number.");
+}
