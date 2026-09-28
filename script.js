@@ -299,33 +299,65 @@
 // }
 
 
-var year = 2020;            
+// var year = 2020;            
 
-    if ( year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
-    console.log( year + " is a leap year ");
-    }
+//     if ( year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
+//     console.log( year + " is a leap year ");
+//     }
 
-    else {
-        console.log(year +  " is not a leap year");
-    }
+//     else {
+//         console.log(year +  " is not a leap year");
+//     }
 
 
 
-    for ( var i=1; i<=5; i++){
+//     for ( var i=1; i<=5; i++){
         
-        var pattern = "";
-        for ( var j=1 ; j<=i; j++){
-            pattern = pattern + " *";
-        }
-        console.log(pattern);
-    }
+//         var pattern = "";
+//         for ( var j=1 ; j<=i; j++){
+//             pattern = pattern + " *";
+//         }
+//         console.log(pattern);
+//     }
 
 
-    function  greet (name){
-        console.log("Hello "+ name + " , welcome to javascript ")
-    }
+//     function  greet (name){
+//         console.log("Hello "+ name + " , welcome to javascript ")
+//     }
 
-    greet("tanvir");
-    greet("hasan")
+//     greet("tanvir");
+//     greet("hasan")
 
- const myname = "tanvir";
+
+
+//** */ let and const keywords
+
+
+// const myname = "tanvir";
+// if (true){
+
+//     console.log(myname);
+// }
+//!  const myname = "hasan";
+ 
+//!   it won't work because const variable cannot be reassigned or redeclared in the same scope.
+
+// console.log(myname);
+
+
+//**temple string */
+
+let firstname = "tanvir";
+let lastname = "hasan";
+
+// let fullname = firstname +  lastname ;
+// console.log (fullname);
+ 
+// temple string 
+
+let fullname = `${firstname} ${lastname}`;
+console.log(fullname);
+
+
+ 
+
