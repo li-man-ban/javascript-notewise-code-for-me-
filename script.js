@@ -347,17 +347,20 @@
 
 //**temple string */
 
-let firstname = "tanvir";
-let lastname = "hasan";
+// let firstname = "tanvir";
+// let lastname = "hasan";
 
 // let fullname = firstname +  lastname ;
 // console.log (fullname);
  
 // temple string 
 
-let fullname = `${firstname} ${lastname}`;
-console.log(fullname);
+// let fullname = `${firstname} ${lastname}`;
+// console.log(fullname);
 
 
- 
+//** string interpolation  */
+let age= 19;
+let message = `My name is tanvir and I am ${age} years old.`;
+console.log(message);
 
